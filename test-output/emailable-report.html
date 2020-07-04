@@ -8,46 +8,45 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">908</td><td></td><td></td></tr>
+<tr><th colspan="8">Web Api tests</th></tr>
+<tr><td><a href="#t0">Get 200 tests</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">2.590</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Get 401 tests</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">1.090</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Get 404 tests</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">362</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">Options 204  tests</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">332</td><td></td><td></td></tr>
+<tr><td><a href="#t4">Delete and Post tests</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">831</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t5">Body Tests With Jackson</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">1.585</td><td></td><td></td></tr>
+<tr><td><a href="#t6">Body Tests With Simpe Map</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">564</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">14</th><th class="num">0</th><th class="num">0</th><th class="num attn">2</th><th class="num">7.354</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.WebApiAutomation.Get404</td><td><a href="#m0">notEistingUrlReturns404</a></td><td rowspan="1">1593696494017</td><td rowspan="1">527</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Web Api tests</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Get 200 tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.WebApiAutomation.Get200</td><td><a href="#m0">baseUrlReturns200</a></td><td rowspan="1">1593881975261</td><td rowspan="1">616</td></tr><tr class="passedeven"><td><a href="#m1">rateLimitReturns200</a></td><td rowspan="1">1593881975889</td><td rowspan="1">307</td></tr><tr class="passedeven"><td><a href="#m2">searchReposReturns200</a></td><td rowspan="1">1593881976202</td><td rowspan="1">1307</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Get 401 tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.WebApiAutomation.Get401</td><td><a href="#m3">userReturns401</a></td><td rowspan="3">1593881978362</td><td rowspan="3">328</td></tr><tr class="passedeven"><td><a href="#m4">userReturns401</a></td></tr><tr class="passedeven"><td><a href="#m5">userReturns401</a></td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Get 404 tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.WebApiAutomation.Get404</td><td><a href="#m6">notEistingUrlReturns404</a></td><td rowspan="1">1593881978719</td><td rowspan="1">352</td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">Options 204  tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.WebApiAutomation.Options204</td><td><a href="#m7">optionsReturnsCorrectMethodsList</a></td><td rowspan="1">1593881979091</td><td rowspan="1">317</td></tr></tbody>
+<tbody id="t4"><tr><th colspan="4">Delete and Post tests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.WebApiAutomation.DeleteAndPost</td><td><a href="#m8">createRepoReturns201</a></td><td rowspan="1">1593881979448</td><td rowspan="1">458</td></tr><tr class="failedeven"><td><a href="#m9">deleteIsSuccessful</a></td><td rowspan="1">1593881979917</td><td rowspan="1">349</td></tr></tbody>
+<tbody id="t5"><tr><th colspan="4">Body Tests With Jackson &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.WebApiAutomation.BodyTestWithJackson</td><td><a href="#m10">correctRAteLimitsAreSet</a></td><td rowspan="1">1593881980293</td><td rowspan="1">532</td></tr><tr class="passedeven"><td><a href="#m11">notFoundMassageIsCorrect</a></td><td rowspan="1">1593881980831</td><td rowspan="1">361</td></tr><tr class="passedeven"><td><a href="#m12">returnCorrectId</a></td><td rowspan="1">1593881981211</td><td rowspan="1">421</td></tr><tr class="passedeven"><td><a href="#m13">returnCorrectLogin</a></td><td rowspan="1">1593881981648</td><td rowspan="1">223</td></tr></tbody>
+<tbody id="t6"><tr><th colspan="4">Body Tests With Simpe Map &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.WebApiAutomation.BodyTestWithSimpleMap</td><td><a href="#m14">returnCorrectId</a></td><td rowspan="1">1593881981890</td><td rowspan="1">264</td></tr><tr class="passedeven"><td><a href="#m15">returnCorrectLogin</a></td><td rowspan="1">1593881982160</td><td rowspan="1">281</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">com.WebApiAutomation.Get404#notEistingUrlReturns404</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [200] but found [404]
-	at org.testng.Assert.fail(Assert.java:97)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
-	at org.testng.Assert.assertEquals(Assert.java:118)
-	at org.testng.Assert.assertEquals(Assert.java:839)
-	at org.testng.Assert.assertEquals(Assert.java:849)
-	at com.WebApiAutomation.Get404.notEistingUrlReturns404(Get404.java:45)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+<h2>Get 200 tests</h2><h3 id="m0">com.WebApiAutomation.Get200#baseUrlReturns200</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.WebApiAutomation.Get200#rateLimitReturns200</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.WebApiAutomation.Get200#searchReposReturns200</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Get 401 tests</h2><h3 id="m3">com.WebApiAutomation.Get401#userReturns401</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>notifications</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.WebApiAutomation.Get401#userReturns401</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>user/followers</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.WebApiAutomation.Get401#userReturns401</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>user</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Get 404 tests</h2><h3 id="m6">com.WebApiAutomation.Get404#notEistingUrlReturns404</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Options 204  tests</h2><h3 id="m7">com.WebApiAutomation.Options204#optionsReturnsCorrectMethodsList</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Delete and Post tests</h2><h3 id="m8">com.WebApiAutomation.DeleteAndPost#createRepoReturns201</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [201] but found [401]
+	at com.WebApiAutomation.DeleteAndPost.createRepoReturns201(DeleteAndPost.java:58)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:588)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
-	at org.testng.TestNG.runSuites(TestNG.java:1066)
-	at org.testng.TestNG.run(TestNG.java:1034)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.WebApiAutomation.DeleteAndPost#deleteIsSuccessful</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [204] but found [401]
+	at com.WebApiAutomation.DeleteAndPost.deleteIsSuccessful(DeleteAndPost.java:34)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Body Tests With Jackson</h2><h3 id="m10">com.WebApiAutomation.BodyTestWithJackson#correctRAteLimitsAreSet</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.WebApiAutomation.BodyTestWithJackson#notFoundMassageIsCorrect</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.WebApiAutomation.BodyTestWithJackson#returnCorrectId</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.WebApiAutomation.BodyTestWithJackson#returnCorrectLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Body Tests With Simpe Map</h2><h3 id="m14">com.WebApiAutomation.BodyTestWithSimpleMap#returnCorrectId</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">com.WebApiAutomation.BodyTestWithSimpleMap#returnCorrectLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

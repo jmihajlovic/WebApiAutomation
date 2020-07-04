@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Web Api tests">
+	<test name="Get 200 tests">
+		<classes>
+			<class name="com.WebApiAutomation.Get200" />
+		</classes>
+	</test>
+	<test name="Get 401 tests">
+		<classes>
+			<class name="com.WebApiAutomation.Get401" />
+		</classes>
+	</test>
+	<test name="Get 404 tests">
+		<classes>
+			<class name="com.WebApiAutomation.Get404" />
+		</classes>
+	</test>
+	<test name="Options 204  tests">
+		<classes>
+			<class name="com.WebApiAutomation.Options204" />
+		</classes>
+	</test>
+	<test name="Delete and Post tests">
+		<classes>
+			<class name="com.WebApiAutomation.DeleteAndPost" />
+		</classes>
+	</test>
+	<test name="Body Tests With Jackson">
+		<classes>
+			<class name="com.WebApiAutomation.BodyTestWithJackson" />
+		</classes>
+	</test>
+	<test name="Body Tests With Simpe Map">
+		<classes>
+			<class name="com.WebApiAutomation.BodyTestWithSimpleMap" />
+		</classes>
+	</test>
+</suite>

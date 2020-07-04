@@ -2,10 +2,6 @@ package com.WebApiAutomation;
 
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
-import org.testng.annotations.Test;
-import org.testng.AssertJUnit;
-import org.testng.annotations.Test;
-
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
@@ -34,7 +30,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class BodyTestWithJackson extends BaseCalass {
+public class BodyTestWithJackson extends HeaderMethod {
 
 	String BaseEndpoint = "https://api.github.com/";
 	CloseableHttpClient client;

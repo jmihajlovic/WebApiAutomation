@@ -9,7 +9,7 @@ import org.apache.http.client.methods.CloseableHttpResponse;
 public class HeaderMethod {
 
 	
-	private String getHeader(CloseableHttpResponse response, String headerName) {
+	static String getHeader(CloseableHttpResponse response, String headerName) {
 
 		Header[] headers = response.getAllHeaders();
 

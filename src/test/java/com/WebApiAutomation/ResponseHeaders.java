@@ -65,7 +65,7 @@ public class ResponseHeaders {
 		response = client.execute(get);
 
 		
-		String headerValue = BaseCalass.getHeader(response, "Server");
+		String headerValue = HeaderMethod.getHeader(response, "Server");
 		
 		assertEquals(headerValue, "GitHub.com");
 

@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,8 +39,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-failed">Default suite</span>
+            <a href="#" panel-name="suite-Web_Api_tests" class="navigator-link">
+              <span class="suite-name border-failed">Web Api tests</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,37 +50,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Jovana\AppData\Local\Temp\testng-eclipse-1436018235\testng-customsuite.xml</span>
+                  <a href="#" panel-name="test-xml-Web_Api_tests" class="navigator-link ">
+                    <span>D:\workspace\WebApiAutomation\WebApiAutomation-suit.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
-                    <span class="test-stats">1 test</span>
+                  <a href="#" panel-name="testlist-Web_Api_tests" class="navigator-link ">
+                    <span class="test-stats">7 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="group-Web_Api_tests" class="navigator-link ">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="times-Web_Api_tests" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="reporter-Web_Api_tests" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="ignored-methods-Web_Api_tests" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="chronological-Web_Api_tests" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -93,21 +93,105 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">16 methods, 2 failed,   14 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
                     <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Web_Api_tests" class="hide-methods failed suite-Web_Api_tests"> (hide)</a> <!-- hide-methods failed suite-Web_Api_tests -->
+                      <a href="#" panel-name="suite-Web_Api_tests" class="show-methods failed suite-Web_Api_tests"> (show)</a> <!-- show-methods failed suite-Web_Api_tests -->
                     </span>
-                    <div class="method-list-content failed suite-Default_suite">
+                    <div class="method-list-content failed suite-Web_Api_tests">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.WebApiAutomation.Get404" class="method navigator-link" hash-for-method="notEistingUrlReturns404">notEistingUrlReturns404</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Web_Api_tests" title="com.WebApiAutomation.DeleteAndPost" class="method navigator-link" hash-for-method="createRepoReturns201">createRepoReturns201</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Default_suite -->
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Web_Api_tests" title="com.WebApiAutomation.DeleteAndPost" class="method navigator-link" hash-for-method="deleteIsSuccessful">deleteIsSuccessful</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Web_Api_tests -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Web_Api_tests" class="hide-methods passed suite-Web_Api_tests"> (hide)</a> <!-- hide-methods passed suite-Web_Api_tests -->
+                      <a href="#" panel-name="suite-Web_Api_tests" class="show-methods passed suite-Web_Api_tests"> (show)</a> <!-- show-methods passed suite-Web_Api_tests -->
+                    </span>
+                    <div class="method-list-content passed suite-Web_Api_tests">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Web_Api_tests" title="com.WebApiAutomation.Get200" class="method navigator-link" hash-for-method="baseUrlReturns200">baseUrlReturns200</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Web_Api_tests" title="com.WebApiAutomation.BodyTestWithJackson" class="method navigator-link" hash-for-method="correctRAteLimitsAreSet">correctRAteLimitsAreSet</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Web_Api_tests" title="com.WebApiAutomation.Get404" class="method navigator-link" hash-for-method="notEistingUrlReturns404">notEistingUrlReturns404</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Web_Api_tests" title="com.WebApiAutomation.BodyTestWithJackson" class="method navigator-link" hash-for-method="notFoundMassageIsCorrect">notFoundMassageIsCorrect</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Web_Api_tests" title="com.WebApiAutomation.Options204" class="method navigator-link" hash-for-method="optionsReturnsCorrectMethodsList">optionsReturnsCorrectMethodsList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Web_Api_tests" title="com.WebApiAutomation.Get200" class="method navigator-link" hash-for-method="rateLimitReturns200">rateLimitReturns200</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Web_Api_tests" title="com.WebApiAutomation.BodyTestWithJackson" class="method navigator-link" hash-for-method="returnCorrectId">returnCorrectId</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Web_Api_tests" title="com.WebApiAutomation.BodyTestWithSimpleMap" class="method navigator-link" hash-for-method="returnCorrectId">returnCorrectId</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Web_Api_tests" title="com.WebApiAutomation.BodyTestWithJackson" class="method navigator-link" hash-for-method="returnCorrectLogin">returnCorrectLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Web_Api_tests" title="com.WebApiAutomation.BodyTestWithSimpleMap" class="method navigator-link" hash-for-method="returnCorrectLogin">returnCorrectLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Web_Api_tests" title="com.WebApiAutomation.Get200" class="method navigator-link" hash-for-method="searchReposReturns200">searchReposReturns200</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Web_Api_tests" title="com.WebApiAutomation.Get401" class="method navigator-link" hash-for-method="userReturns401(notifications)">userReturns401(notifications)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Web_Api_tests" title="com.WebApiAutomation.Get401" class="method navigator-link" hash-for-method="userReturns401(user/followers)">userReturns401(user/followers)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Web_Api_tests" title="com.WebApiAutomation.Get401" class="method navigator-link" hash-for-method="userReturns401(user)">userReturns401(user)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Web_Api_tests -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -118,10 +202,42 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-failed">
+        <div panel-name="suite-Web_Api_tests" class="panel Web_Api_tests">
+          <div class="suite-Web_Api_tests-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
+              <span class="class-name">com.WebApiAutomation.DeleteAndPost</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createRepoReturns201">
+                  </a> <!-- createRepoReturns201 -->
+                  <span class="method-name">createRepoReturns201</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [201] but found [401]
+	at com.WebApiAutomation.DeleteAndPost.createRepoReturns201(DeleteAndPost.java:58)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteIsSuccessful">
+                  </a> <!-- deleteIsSuccessful -->
+                  <span class="method-name">deleteIsSuccessful</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [204] but found [401]
+	at com.WebApiAutomation.DeleteAndPost.deleteIsSuccessful(DeleteAndPost.java:34)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Web_Api_tests-class-failed -->
+          <div class="suite-Web_Api_tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">com.WebApiAutomation.Get404</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -130,148 +246,553 @@
                   <a name="notEistingUrlReturns404">
                   </a> <!-- notEistingUrlReturns404 -->
                   <span class="method-name">notEistingUrlReturns404</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [200] but found [404]
-	at org.testng.Assert.fail(Assert.java:97)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
-	at org.testng.Assert.assertEquals(Assert.java:118)
-	at org.testng.Assert.assertEquals(Assert.java:839)
-	at org.testng.Assert.assertEquals(Assert.java:849)
-	at com.WebApiAutomation.Get404.notEistingUrlReturns404(Get404.java:45)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:588)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
-	at org.testng.TestNG.runSuites(TestNG.java:1066)
-	at org.testng.TestNG.run(TestNG.java:1034)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-failed -->
-        </div> <!-- panel Default_suite -->
-        <div panel-name="test-xml-Default_suite" class="panel">
+          </div> <!-- suite-Web_Api_tests-class-passed -->
+          <div class="suite-Web_Api_tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.WebApiAutomation.BodyTestWithJackson</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="correctRAteLimitsAreSet">
+                  </a> <!-- correctRAteLimitsAreSet -->
+                  <span class="method-name">correctRAteLimitsAreSet</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="notFoundMassageIsCorrect">
+                  </a> <!-- notFoundMassageIsCorrect -->
+                  <span class="method-name">notFoundMassageIsCorrect</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="returnCorrectId">
+                  </a> <!-- returnCorrectId -->
+                  <span class="method-name">returnCorrectId</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="returnCorrectLogin">
+                  </a> <!-- returnCorrectLogin -->
+                  <span class="method-name">returnCorrectLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Web_Api_tests-class-passed -->
+          <div class="suite-Web_Api_tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.WebApiAutomation.Get401</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="userReturns401(notifications)">
+                  </a> <!-- userReturns401(notifications) -->
+                  <span class="method-name">userReturns401</span>
+                  <span class="parameters">(notifications)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userReturns401(user/followers)">
+                  </a> <!-- userReturns401(user/followers) -->
+                  <span class="method-name">userReturns401</span>
+                  <span class="parameters">(user/followers)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userReturns401(user)">
+                  </a> <!-- userReturns401(user) -->
+                  <span class="method-name">userReturns401</span>
+                  <span class="parameters">(user)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Web_Api_tests-class-passed -->
+          <div class="suite-Web_Api_tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.WebApiAutomation.BodyTestWithSimpleMap</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="returnCorrectId">
+                  </a> <!-- returnCorrectId -->
+                  <span class="method-name">returnCorrectId</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="returnCorrectLogin">
+                  </a> <!-- returnCorrectLogin -->
+                  <span class="method-name">returnCorrectLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Web_Api_tests-class-passed -->
+          <div class="suite-Web_Api_tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.WebApiAutomation.Get200</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="baseUrlReturns200">
+                  </a> <!-- baseUrlReturns200 -->
+                  <span class="method-name">baseUrlReturns200</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="rateLimitReturns200">
+                  </a> <!-- rateLimitReturns200 -->
+                  <span class="method-name">rateLimitReturns200</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchReposReturns200">
+                  </a> <!-- searchReposReturns200 -->
+                  <span class="method-name">searchReposReturns200</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Web_Api_tests-class-passed -->
+          <div class="suite-Web_Api_tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.WebApiAutomation.Options204</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="optionsReturnsCorrectMethodsList">
+                  </a> <!-- optionsReturnsCorrectMethodsList -->
+                  <span class="method-name">optionsReturnsCorrectMethodsList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Web_Api_tests-class-passed -->
+        </div> <!-- panel Web_Api_tests -->
+        <div panel-name="test-xml-Web_Api_tests" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Jovana\AppData\Local\Temp\testng-eclipse-1436018235\testng-customsuite.xml</span>
+            <span class="header-content">D:\workspace\WebApiAutomation\WebApiAutomation-suit.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+&lt;suite name=&quot;Web Api tests&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Get 200 tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.WebApiAutomation.Get200&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Get 200 tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Get 401 tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.WebApiAutomation.Get401&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Get 401 tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Get 404 tests&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.WebApiAutomation.Get404&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Default test --&gt;
-&lt;/suite&gt; &lt;!-- Default suite --&gt;
+  &lt;/test&gt; &lt;!-- Get 404 tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Options 204  tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.WebApiAutomation.Options204&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Options 204  tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Delete and Post tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.WebApiAutomation.DeleteAndPost&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Delete and Post tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Body Tests With Jackson&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.WebApiAutomation.BodyTestWithJackson&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Body Tests With Jackson --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Body Tests With Simpe Map&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.WebApiAutomation.BodyTestWithSimpleMap&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Body Tests With Simpe Map --&gt;
+&lt;/suite&gt; &lt;!-- Web Api tests --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Default_suite" class="panel">
+        <div panel-name="testlist-Web_Api_tests" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Default suite</span>
+            <span class="header-content">Tests for Web Api tests</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (1 class)</span>
+                <span class="test-name">Get 200 tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Get 401 tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Get 404 tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Options 204  tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Delete and Post tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Body Tests With Jackson (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Body Tests With Simpe Map (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Default_suite" class="panel">
+        <div panel-name="group-Web_Api_tests" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Default suite</span>
+            <span class="header-content">Groups for Web Api tests</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Default_suite" class="panel">
+        <div panel-name="times-Web_Api_tests" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Default suite</span>
+            <span class="header-content">Times for Web Api tests</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Default_suite');
-function tableData_Default_suite() {
+suiteTableInitFunctions.push('tableData_Web_Api_tests');
+function tableData_Web_Api_tests() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(16);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'notEistingUrlReturns404')
-data.setCell(0, 2, 'com.WebApiAutomation.Get404')
-data.setCell(0, 3, 527);
-window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+data.setCell(0, 1, 'searchReposReturns200')
+data.setCell(0, 2, 'com.WebApiAutomation.Get200')
+data.setCell(0, 3, 1307);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'baseUrlReturns200')
+data.setCell(1, 2, 'com.WebApiAutomation.Get200')
+data.setCell(1, 3, 616);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'correctRAteLimitsAreSet')
+data.setCell(2, 2, 'com.WebApiAutomation.BodyTestWithJackson')
+data.setCell(2, 3, 532);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'createRepoReturns201')
+data.setCell(3, 2, 'com.WebApiAutomation.DeleteAndPost')
+data.setCell(3, 3, 458);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'returnCorrectId')
+data.setCell(4, 2, 'com.WebApiAutomation.BodyTestWithJackson')
+data.setCell(4, 3, 421);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'userReturns401')
+data.setCell(5, 2, 'com.WebApiAutomation.Get401')
+data.setCell(5, 3, 374);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'notFoundMassageIsCorrect')
+data.setCell(6, 2, 'com.WebApiAutomation.BodyTestWithJackson')
+data.setCell(6, 3, 361);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'userReturns401')
+data.setCell(7, 2, 'com.WebApiAutomation.Get401')
+data.setCell(7, 3, 356);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'notEistingUrlReturns404')
+data.setCell(8, 2, 'com.WebApiAutomation.Get404')
+data.setCell(8, 3, 352);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'deleteIsSuccessful')
+data.setCell(9, 2, 'com.WebApiAutomation.DeleteAndPost')
+data.setCell(9, 3, 349);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'userReturns401')
+data.setCell(10, 2, 'com.WebApiAutomation.Get401')
+data.setCell(10, 3, 328);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'optionsReturnsCorrectMethodsList')
+data.setCell(11, 2, 'com.WebApiAutomation.Options204')
+data.setCell(11, 3, 317);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'rateLimitReturns200')
+data.setCell(12, 2, 'com.WebApiAutomation.Get200')
+data.setCell(12, 3, 307);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'returnCorrectLogin')
+data.setCell(13, 2, 'com.WebApiAutomation.BodyTestWithSimpleMap')
+data.setCell(13, 3, 281);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'returnCorrectId')
+data.setCell(14, 2, 'com.WebApiAutomation.BodyTestWithSimpleMap')
+data.setCell(14, 3, 264);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'returnCorrectLogin')
+data.setCell(15, 2, 'com.WebApiAutomation.BodyTestWithJackson')
+data.setCell(15, 3, 223);
+window.suiteTableData['Web_Api_tests']= { tableData: data, tableDiv: 'times-div-Web_Api_tests'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 527 ms</span>
-              <div id="times-div-Default_suite">
-              </div> <!-- times-div-Default_suite -->
+              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <div id="times-div-Web_Api_tests">
+              </div> <!-- times-div-Web_Api_tests -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Default_suite" class="panel">
+        <div panel-name="reporter-Web_Api_tests" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Default suite</span>
+            <span class="header-content">Reporter output for Web Api tests</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Default_suite" class="panel">
+        <div panel-name="ignored-methods-Web_Api_tests" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Default_suite" class="panel">
+        <div panel-name="chronological-Web_Api_tests" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.WebApiAutomation.Get404</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.WebApiAutomation.Get200</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">notEistingUrlReturns404</span>
-                <span class="method-start">324 ms</span>
+                <span class="method-name">baseUrlReturns200</span>
+                <span class="method-start">298 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeResources</span>
-                <span class="method-start">859 ms</span>
+                <span class="method-start">918 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">923 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">rateLimitReturns200</span>
+                <span class="method-start">926 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeResources</span>
+                <span class="method-start">1235 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">1236 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchReposReturns200</span>
+                <span class="method-start">1239 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeResources</span>
+                <span class="method-start">2550 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.WebApiAutomation.Get401</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">2649 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">userReturns401(user)</span>
+                <span class="method-start">2651 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeResources</span>
+                <span class="method-start">3028 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">3029 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">userReturns401(user/followers)</span>
+                <span class="method-start">3032 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeResources</span>
+                <span class="method-start">3391 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">3394 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">userReturns401(notifications)</span>
+                <span class="method-start">3399 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeResources</span>
+                <span class="method-start">3731 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.WebApiAutomation.Get404</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">3753 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">notEistingUrlReturns404</span>
+                <span class="method-start">3756 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeResources</span>
+                <span class="method-start">4110 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.WebApiAutomation.Options204</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">4124 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">optionsReturnsCorrectMethodsList</span>
+                <span class="method-start">4128 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeResources</span>
+                <span class="method-start">4449 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.WebApiAutomation.DeleteAndPost</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">4479 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">createRepoReturns201</span>
+                <span class="method-start">4485 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeResources</span>
+                <span class="method-start">4947 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">4950 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteIsSuccessful</span>
+                <span class="method-start">4954 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeResources</span>
+                <span class="method-start">5305 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.WebApiAutomation.BodyTestWithJackson</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">5328 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">correctRAteLimitsAreSet</span>
+                <span class="method-start">5330 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeResources</span>
+                <span class="method-start">5864 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">5866 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">notFoundMassageIsCorrect</span>
+                <span class="method-start">5868 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeResources</span>
+                <span class="method-start">6234 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">6239 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">returnCorrectId</span>
+                <span class="method-start">6248 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeResources</span>
+                <span class="method-start">6673 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">6678 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">returnCorrectLogin</span>
+                <span class="method-start">6685 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeResources</span>
+                <span class="method-start">6909 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.WebApiAutomation.BodyTestWithSimpleMap</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">6924 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">returnCorrectId</span>
+                <span class="method-start">6927 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeResources</span>
+                <span class="method-start">7193 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">7194 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">returnCorrectLogin</span>
+                <span class="method-start">7197 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeResources</span>
+                <span class="method-start">7482 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

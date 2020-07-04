@@ -13,7 +13,7 @@ public class BaseClass {
     CloseableHttpClient client;
     CloseableHttpResponse response;
 
-    protected static final String BASE_ENDPOINT = "https://api.github.com";
+    protected static final String BASE_ENDPOINT = "https://api.github.com/";
 
     @BeforeMethod
     public void setup(){

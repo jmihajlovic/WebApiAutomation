@@ -42,7 +42,7 @@ public class Get404 {
 
 		System.out.println(actualStatus);
 
-		Assert.assertEquals(actualStatus, 200);
+		Assert.assertEquals(actualStatus, 404);
 
 	}
 
